@@ -8,8 +8,23 @@ EMAIL ACCOUNT:
 username: costCalculator@jumpgoatmedia.com
 password: jumpingFencesForThe$$_;___:
 
+MariaDB/MySQL database named “jumpgo5_TestDB”
+username: jumpgo5_ajp
+password: HpaODP[c0XbW
+
 
 
 
 simple web server command line: python -m SimpleHTTPServer 8000
 
+
+
+
+For Generating pdf report with PHP:
+
+	- https://www.siteground.com/kb/how_to_generate_pdf_files_with_php/
+	- http://www.fpdf.org/
+
+For attaching files to send with email via PHP:
+	- http://stackoverflow.com/questions/12301358/send-attachments-with-php-mail
+	9612 8041 9836 6871 7389 28

@@ -1,8 +1,9 @@
 
 <?php
-$servername = "ecbiz165.inmotionhosting.com";
+// $servername = "ecbiz165.inmotionhosting.com";
+$servername = "localhost";
 $username = "jumpgo5_ajp";
-$password = "jumpingFencesForThe$$_;___:";
+$password = "HpaODP[c0XbW";
 $dbname = "jumpgo5_TestDB";
 
 try {
