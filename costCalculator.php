@@ -4,7 +4,8 @@ hi there! <br>
 
 // include(dirname(__FILE__)."/../testInclude.php");
 // include './../testInclude.php';
-include './../testAttachment.php';
+// include './../testAttachment.php';
+include './../connectToDatabase.php';
 
 
 echo "hey guys!";
