@@ -1,5 +1,5 @@
 <?php
-$servername = "ecbiz165";
+$servername = "ecbiz165.inmotionhosting.com";
 $username = "jumpgo5_ajp";
 $password = "jumpingFencesForThe$$_;___:";
 $dbname = "jumpgo5_TestDB";
