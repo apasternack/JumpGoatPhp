@@ -28,3 +28,6 @@ For Generating pdf report with PHP:
 For attaching files to send with email via PHP:
 	- http://stackoverflow.com/questions/12301358/send-attachments-with-php-mail
 	9612 8041 9836 6871 7389 28
+
+	ALTER TABLE [Table] ALTER COLUMN [Column] INTEGER NOT NULL
+ALTER TABLE [Calculations] ALTER COLUMN [Column] INTEGER NOT NULL

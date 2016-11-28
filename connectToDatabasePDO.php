@@ -6,15 +6,27 @@ $username = "jumpgo5_ajp";
 $password = "HpaODP[c0XbW";
 $dbname = "jumpgo5_TestDB";
 
+$expenses = '8.78';
+$hourlyRate = '25.00';
+$hours = '3';
+
+
+
+$totalQuote = $hourlyRate * $hours + $expenses ;
+
+
+
+
+
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "INSERT INTO Calculations (expenses, hourlyRate, hours)
-    VALUES ('6.78', '15.00', '7.5')";
+    $sql = "INSERT INTO Calculations (expenses, hourlyRate, hours, totalQuote)
+    VALUES ($expenses, $hourlyRate, $hours, $totalQuote)";
     // use exec() because no results are returned
     $conn->exec($sql);
-    echo "New record created successfully";
+    echo "New record created successfully<br>";
     }
 catch(PDOException $e)
     {
