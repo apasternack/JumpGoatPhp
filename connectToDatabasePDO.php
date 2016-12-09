@@ -6,9 +6,16 @@ $username = "jumpgo5_ajp";
 $password = "HpaODP[c0XbW";
 $dbname = "jumpgo5_TestDB";
 
-$expenses = '8.78';
-$hourlyRate = '25.00';
-$hours = '3';
+// $expenses = '8.78';
+// $hourlyRate = '25.00';
+// $hours = '3';
+
+
+$expenses = $_POST["expenses"];
+$hourlyRate = $_POST["hourlyRate"];
+$hours = $_POST["hours"];
+
+
 
 
 

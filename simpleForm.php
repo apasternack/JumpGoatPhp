@@ -15,7 +15,8 @@
 
 ?>-->
 
-<form action="simpleFormResults.php" method="post">
+<!--<form action="simpleFormResults.php" method="post">-->
+<form action="costCalculator.php" method="post">
 expenses: <input type="text" name="expenses"><br>
 hourlyRate: <input type="text" name="hourlyRate"><br>
 hours: <input type="text" name="hours"><br>

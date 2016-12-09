@@ -5,11 +5,11 @@
 // include './../testInclude.php';
 // include './../testAttachment.php';
 // include './../connectToDatabase.php';
-include './../connectToDatabasePDO.php';
+include './../connectToDatabasePDOUpdate.php';
 // include './../connectToDatabaseInmotion.php';
 
 ?>
-<br>
+<!--<br>
 <br>
 Please Review Quote Values, update if needed<br>
 <form action="costCalculatorUpdate.php" method="post">
@@ -22,4 +22,4 @@ hours: <input type="text" name="hours" value="<?php echo $_POST["hours"]; ?>"><b
 
 Expenses: <?php echo $_POST["expenses"]; ?><br>
 Hourly Rate: <?php echo $_POST["hourlyRate"]; ?><br>
-Hours: <?php echo $_POST["hours"]; ?><br>
+Hours: <?php echo $_POST["hours"]; ?><br>-->
